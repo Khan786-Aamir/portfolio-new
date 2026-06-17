@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aamir Khan | Premium Portfolio | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Aamir Khan, a passionate Full Stack Developer specializing in building high-end React, Node.js, and MongoDB web applications with modern design systems." />
+    <meta name="keywords" content="Aamir Khan, Full Stack Developer, React Developer, MERN Stack, Software Engineer, Portfolio" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (stored === "dark" || (!stored && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          } else {
+            document.documentElement.classList.remove("dark");
+          }
+        } catch (e) {
+          // fail silently, default to light
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
