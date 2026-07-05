@@ -24,7 +24,7 @@ export default function Hero() {
             {/* Status Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800/80 text-xs font-semibold text-slate-800 dark:text-slate-200 shadow-sm mb-6">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Software Engineer Intern @ Yuga Yatra (OPC) Private Ltd</span>
+              <span>Software Engineer Intern @ Yuga Yatra Retail (OPC) Private Ltd</span>
             </div>
           </ScrollReveal>
 
