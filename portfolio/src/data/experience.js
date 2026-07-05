@@ -1,7 +1,7 @@
 export const experiences = [
   {
     role: "Software Engineer Intern",
-    company: "Yuga Yatra (OPC) Private Limited",
+    company: "Yuga Yatra Retail (OPC) Private Limited",
     location: "Remote / Hybrid",
     period: "2026 - Present",
     desc: "Responsible for building responsive client interfaces and modular backend service endpoints. Engineering data storage integrations with MongoDB and MySQL databases while collaborating closely on Git repository structures and unit testing workflows.",
